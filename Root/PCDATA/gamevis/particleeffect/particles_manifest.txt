@@ -1,0 +1,11 @@
+particles_manifest
+{
+
+// Begin Maniffile
+
+	"file"		"PCDATA/gamevis/particleeffect/lev_twisttun2.pcf"
+	"file"		"PCDATA/gamevis/particleeffect/lev_twisttun3.pcf"
+
+// End Maniffile
+
+}
