@@ -1,0 +1,29 @@
+@include "___/FortifiedData/FILESINCLUDED-TEST/RigEntityFACTUAL.fgd"
+
+@BaseClass base(BaseLogic) = MaintainFluxery
+[
+	UseSentence(string) : "Use Sentience"
+	UnUseSentence(string) : "Un-Use Sentience"
+
+	StrongFlowTakeHowComp(choices) : "#false" : 0 : "Maintain BLOOD FOR" =
+	[
+		0 : "False (Use approximations)"
+		1 : "True (Compute all render points)"
+	]
+
+	input KingBoundarie(string) : "Volume abounds the origin (master or Father)"
+]
+
+@PointClass base(Targetname, Parentname) iconsprite("lg_/ColdWorld/EDITORS/EDITOR/INFO_TARGET_MLT.VMT")  = functions_SuddenAttack : "Call screamer scripting"
+[
+	speed(integer) : "Speed by which to enact callings" : 2
+	lookupTable(string) : "Strive/LI"
+	restrictFlag(Flags) =
+	[
+		1 : "No edge effect" : 0
+		8 : "No blindness" : 0
+		14 : "Dough resume" : 0
+		18 : "Keep in save" : 1
+		24 : "Test For Shore" : 0
+	]
+]
